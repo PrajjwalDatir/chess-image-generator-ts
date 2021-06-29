@@ -1,0 +1,39 @@
+{
+  "name": "chess-image-generator-ts",
+  "version": "1.0.0",
+  "description": "Generate images based on various forms of chess notation.",
+  "main": "src/index.js",
+  "types": "src",
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrajjwalDatir/chess-image-generator-ts.git"
+  },
+  "keywords": [
+    "Chess",
+    "GIF",
+    "PNG",
+    "JPG",
+    "Image"
+  ],
+  "author": "Prajjwal Datir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PrajjwalDatir/chess-image-generator-ts/issues"
+  },
+  "homepage": "https://github.com/PrajjwalDatir/chess-image-generator-ts#readme",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "canvas-to-buffer": "^1.1.0",
+    "chess.js": "^0.10.2",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
